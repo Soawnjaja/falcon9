@@ -10,11 +10,13 @@
 :before {
     box-sizing: border-box;
 }
-
+.video {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%) !important; 
+}
 body {
-    background: #000000 url("../img/main-bg.jpg") top left 140% no-repeat;
+    background: #000000 url("../img/main-bg.jpg") top left 120% no-repeat;
     background-size: contain;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
 }
@@ -119,6 +121,7 @@ body {
     width: 12px;
     height: 12px;
     display: inline-block;
+
 }
 
 .slider {
